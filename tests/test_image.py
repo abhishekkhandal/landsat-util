@@ -15,7 +15,6 @@ from rasterio.warp import transform_bounds
 from landsat.image import Simple, PanSharpen
 from landsat.ndvi import NDVI, NDVIWithManualColorMap
 
-
 def get_bounds(path):
     """ Retrun bounds in WGS84 system """
 
