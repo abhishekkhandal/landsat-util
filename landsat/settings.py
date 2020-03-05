@@ -15,7 +15,8 @@ DEBUG = getenv('DEBUG', False)
 SATELLITE = 'L8'
 L8_METADATA_URL = 'http://landsat.usgs.gov/metadata_service/bulk_metadata_files/LANDSAT_8.csv'
 GOOGLE_STORAGE = 'http://storage.googleapis.com/earthengine-public/landsat/'
-S3_LANDSAT = 'http://landsat-pds.s3.amazonaws.com/'
+S3_LANDSAT = 'http://landsat-pds.s3.amazonaws.com/c1/'
+S3_LANDSAT_NEW = 'http://landsat-pds.s3.amazonaws.com/c1/'
 API_URL = 'https://api.developmentseed.org/satellites/landsat'
 
 # User's Home Directory
